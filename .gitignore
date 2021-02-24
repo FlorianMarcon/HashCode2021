@@ -109,6 +109,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+hash-code-env/
 
 # Spyder project settings
 .spyderproject
