@@ -16,3 +16,5 @@ help:
 	@echo "	make setup"
 	@echo "---- ---- ----"
 
+test:
+	python -m unittest discover ./tests -v
