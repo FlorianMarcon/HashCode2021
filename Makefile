@@ -14,6 +14,8 @@ help:
 	@echo "	Example: source /hash-code-env/bin/activate.fish"
 	@echo "3) Download requirements"
 	@echo "	make setup"
+	@echo "4) Run program"
+	@echo "	python3 project/main.py --help"
 	@echo "---- ---- ----"
 
 test:

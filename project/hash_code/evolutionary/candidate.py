@@ -7,6 +7,7 @@ class Candidate:
 	def __init__(self, genotype: [int]):
 		super().__init__()
 		self.genotype = genotype
+		self.score = 0
 
 	def get_genotype(self) -> [int]:
 		return self.genotype
@@ -59,3 +60,16 @@ class Candidate:
 		new_candidates.append(Candidate(g2[:index_point] + g1[index_point:]))
 		
 		return new_candidates
+
+	def __len__(self):
+		return len(self.genotype)
+
+	def __str__(self):
+		# return "str(self.genotype)"
+		return str(self.genotype)
+	def __repr__(self):
+		# return super().__repr__()(self.genotype)
+		# return "str(self.genotype)"
+		return str(self.genotype)
+
+		
